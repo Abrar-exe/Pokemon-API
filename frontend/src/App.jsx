@@ -18,10 +18,12 @@ Setpika(data.sprites.front_shiny)
   <input placeholder="Enter Pokemon Name " value={PokemonName} onChange={(event) => SetPokemoname(event.target.value)}/>
   <button onClick={callAPI}>Check</button>
   
-  {pika && <img src ={pika} alt="Pokemon" id="pokemonsprite" />}
+  
  
 </div>
-
+<div className="PokemonImage">
+    {pika && <img src ={pika} alt="Pokemon" id="pokemonsprite" />}
+  </div>
   </div>
   );
  

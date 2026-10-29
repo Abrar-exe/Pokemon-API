@@ -19,7 +19,8 @@
    flex-direction: row;
    gap: 10px;
 }
-.images{
+
+.PokemonImage{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
